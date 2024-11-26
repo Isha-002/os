@@ -10,9 +10,9 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
-compiler_builtins = { version = "0.1", features = ["mem"] }
+# compiler_builtins = { version = "0.1", features = ["mem"] }
 
 [build]
-target = "x86_64-unknown-none"
-rustflags = ["-C", "link-arg=-Tlinker.ld"]
+# target = "x86_64-unknown-none"
+# rustflags = ["-C", "link-arg=-Tlinker.ld"]
 
