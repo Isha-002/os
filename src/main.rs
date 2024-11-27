@@ -15,3 +15,4 @@ pub extern "C" fn _start() -> ! {
     let vgu_buffer = 0xb8000 as *mut u8;
     
 }
+// test
